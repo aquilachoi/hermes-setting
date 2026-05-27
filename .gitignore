@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Local settings (machine-specific permissions)
+.claude/settings.local.json
