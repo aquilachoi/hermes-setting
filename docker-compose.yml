@@ -1,0 +1,11 @@
+services:
+  hermes:
+    image: nousresearch/hermes-agent:latest
+    platform: linux/amd64
+    container_name: hermes
+    restart: unless-stopped
+    env_file:
+      - path: ${HOME}/.hermes/.env
+    volumes:
+      - ${HOME}/.hermes:/opt/data
+    command: gateway run
