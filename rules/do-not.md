@@ -1,0 +1,6 @@
+# Rules
+
+- PRD는 한국어로 작성한다.
+- PRD는 `docs/prd/` 아래 md 파일로 저장한다.
+- Plan은 `docs/plans/` 아래 md 파일로 저장한다.
+- Schedule은 `docs/schedule/` 아래 md 파일로 저장한다.
